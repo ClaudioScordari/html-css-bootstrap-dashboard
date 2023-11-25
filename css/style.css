@@ -37,10 +37,13 @@ header nav.d-flex {
 /* 
     MAIN 
 */
+main {
+    height: 100vh;
+}
 
 /* ASIDE */
-
 aside {
+    height: 100%;
     padding-top: 70px;
     background-image: url("../img/sidebar-bg.png");
     background-color: #12293F;
@@ -48,12 +51,14 @@ aside {
 }
 
 aside nav {
-    height: calc(100vh - 70px);
+    height: 100%;
 }
 
-
 /* SEZIONE PRINCIPALE */
-
+.my-main {
+    padding-top: 70px;
+    background-color: beige;
+}
 
 /* 
     FOOTER 
