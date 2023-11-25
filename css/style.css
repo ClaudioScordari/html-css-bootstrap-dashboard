@@ -1,10 +1,35 @@
 /* 
     GENERAL 
 */
+img {
+    width: 100%;
+}
 
 /* 
     HEADER 
 */
+header {
+    background-color: #F8F9FA;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.my-hidden-img {
+    width: 50px;
+}
+
+/* bell header */
+.btn.btn-secondary.btn-sm.dropdown-toggle {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+header nav.d-flex {
+    background-color: white;
+}
 
 /* 
     MAIN 
