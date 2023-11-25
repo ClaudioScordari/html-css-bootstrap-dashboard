@@ -22,7 +22,7 @@
         <!-- HEADER -->
         <header>
             <div class="container-fluid">
-                <div class="align-items-center row py-2">
+                <div class="row align-items-center py-2">
                     <div class="col-1">
                         <div class="d-lg-block d-none">
                             <img src="img/logo.svg" alt="">
@@ -94,10 +94,53 @@
         </header>
 
         <!-- MAIN -->
-        <main>
-            <section>
-                <div>
+        <main class="d-flex">
 
+            <!-- SIDE-BAR -->
+            <section>
+                <aside>
+                    <div class="row">
+                        <div class="col-auto">
+                            <div class="container-fluid">
+                                <nav class="d-flex flex-column justify-content-between py-4">
+                                    <div>
+                                        <a class="text-decoration-none text-light d-block" href="">
+                                            <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                                            <span class="ps-2 d-none d-lg-inline-block">Home</span>
+                                        </a>
+
+                                        <a class="text-decoration-none text-light d-block mt-3" href="">
+                                            <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
+                                            <span class="ps-2 d-none d-lg-inline-block">Stats</span>
+                                        </a>
+
+                                        <a class="text-decoration-none text-light d-block mt-3" href="">
+                                            <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
+                                            <span class="ps-2 d-none d-lg-inline-block">Signals</span>
+                                        </a>
+                                    </div>
+
+                                    <a class="text-decoration-none text-light" href="">
+                                        <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                                        <span class="ps-2 d-none d-lg-inline-block">Admin</span>
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <!-- SEZIONE PRINCIPALE -->
+            <section class="my-main-section">
+                <div class="row">
+                    <div class="col">
+
+                        <div class="my-container-main-sec">
+
+                        </div>
+
+                    </div>
                 </div>
             </section>
         </main>
