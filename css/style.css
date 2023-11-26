@@ -60,6 +60,18 @@ aside nav {
     background-color: beige;
 }
 
+/* HEADER-SEZIONE PRINCIPALE */
+.my-header-main {
+    background-color: #1B72E8;
+    color: white;
+
+}
+
+.my-badge {
+    background-color: #165BBA;
+}
+
+
 /* 
     FOOTER 
 */
