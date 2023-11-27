@@ -68,6 +68,10 @@ aside nav {
     background-color: #165BBA;
 }
 
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+
 /* MY-MAIN */
 .my-code-icon {
     border-radius: 50%;

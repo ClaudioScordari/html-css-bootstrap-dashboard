@@ -11,4 +11,8 @@
 /* 
     LARGE DEVICES - lg
 */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+    .offcanvas.offcanvas-end {
+        max-width: 60%;
+    }
+}
