@@ -82,6 +82,23 @@ aside nav {
     padding: 3px;
 }
 
+/* 
+    HOVER 
+*/
+.my-home-a:hover,
+.my-stats-a:hover,
+.my-signals-a:hover,
+.my-admin-a:hover {
+    background-color: lightgray;
+}
+
+.my-add-student-button:hover {
+    background-color: white;
+}
+
+.my-add-student-button:hover i {
+    color: black;
+}
 
 /* 
     FOOTER 
